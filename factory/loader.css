@@ -1,0 +1,17 @@
+.f-loader{display:flex;flex-direction:column;gap:12px;min-width:0}
+.f-loader-svg{display:block;width:100%;max-height:190px;background:var(--surface-2);border:1px solid var(--hair);border-radius:var(--r)}
+.f-loader-svg line,.f-loader-svg rect{vector-effect:non-scaling-stroke}
+.f-loader-mag{fill:none;stroke:var(--t3);stroke-width:1.25}
+.f-loader-rib{stroke:var(--hair);stroke-width:1}
+.f-loader-pcb{fill:var(--t2);opacity:.7}
+.f-loader-cur{fill:var(--accent)}
+.f-loader-pass{stroke:var(--accent);stroke-width:1;stroke-dasharray:4 3;opacity:.6}
+.f-loader-belt{stroke:var(--text);stroke-width:2}
+.f-loader-wall{fill:var(--t3)}
+.f-loader-rod{stroke:var(--t2);stroke-width:2}
+.f-loader-blade{fill:var(--t2)}
+.f-loader-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));margin:0;border-top:1px solid var(--hair)}
+.f-loader-grid>div{padding:8px 10px 8px 0;border-bottom:1px solid var(--hair);min-width:0}
+.f-loader-grid dt{font-size:12px;color:var(--t3)}
+.f-loader-grid dd{margin:2px 0 0;font:500 15px var(--mono);color:var(--text);white-space:nowrap;font-variant-numeric:tabular-nums}
+.f-loader-grid dd small{font:400 12px 'IBM Plex Sans',sans-serif;color:var(--t3)}

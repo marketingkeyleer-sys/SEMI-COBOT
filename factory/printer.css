@@ -1,0 +1,16 @@
+.f-printer{display:grid;gap:12px;min-width:0}
+.f-printer-map{display:block;width:100%;border:1px solid var(--hair);border-radius:var(--r);background:var(--surface)}
+.f-printer-live{display:flex;flex-wrap:wrap;gap:4px 16px;font:12px var(--mono);color:var(--t3);font-variant-numeric:tabular-nums}.f-printer-live b{font-weight:500;color:var(--text)}
+.f-printer-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.f-printer-kpis>div{padding:8px 12px;border-left:1px solid var(--hair);min-width:0}.f-printer-kpis>div:first-child{border-left:0;padding-left:0}
+.f-printer-kpis dt{font-size:12px;color:var(--t3);white-space:nowrap}.f-printer-kpis dd{margin:2px 0 0;font:500 16px var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}.f-printer-kpis dd small{font:400 12px 'IBM Plex Sans',sans-serif;color:var(--t3)}
+.f-printer-kpis .warn dd{color:var(--warning)}
+.f-printer-specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;margin:0}
+.f-printer-specs>div{display:flex;justify-content:space-between;gap:12px;padding:5px 0;border-bottom:1px solid var(--hair);font-size:12.5px;min-width:0}
+.f-printer-specs dt{color:var(--t3);white-space:nowrap}.f-printer-specs dd{margin:0;font-family:var(--mono);font-size:12px;text-align:right;font-variant-numeric:tabular-nums}
+.f-printer-table{width:100%;border-collapse:collapse;font-size:12.5px}
+.f-printer-table caption{text-align:left;font-size:12px;color:var(--t3);padding-bottom:4px}
+.f-printer-table th{text-align:left;font-weight:500;color:var(--t3);font-size:12px;padding:4px 8px 4px 0;border-bottom:1px solid var(--rule)}
+.f-printer-table td{padding:4px 8px 4px 0;border-bottom:1px solid var(--hair)}.f-printer-table .numeric{font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nums}
+.f-printer-table th:last-child,.f-printer-table td:last-child{text-align:right;padding-right:0}.f-printer-table .warn{color:var(--warning)}
+@media(max-width:560px){.f-printer-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.f-printer-kpis>div:nth-child(3){border-left:0;padding-left:0}.f-printer-kpis>div:nth-child(n+3){border-top:1px solid var(--hair)}.f-printer-specs{grid-template-columns:1fr}}

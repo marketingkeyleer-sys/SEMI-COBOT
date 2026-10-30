@@ -1,0 +1,28 @@
+.f-spi{display:flex;flex-direction:column;gap:12px;min-width:0}
+.f-spi-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));margin:0;border-top:1px solid var(--hair)}
+.f-spi-grid>div{padding:8px 10px 8px 0;border-bottom:1px solid var(--hair);min-width:0}
+.f-spi-grid dt{font-size:12px;color:var(--t3)}
+.f-spi-grid dd{margin:2px 0 0;font:500 15px var(--mono);color:var(--text);white-space:nowrap;font-variant-numeric:tabular-nums;overflow:hidden;text-overflow:ellipsis}
+.f-spi-grid dd small{font:400 12px 'IBM Plex Sans',sans-serif;color:var(--t3)}
+.f-spi-ok{color:var(--green)}
+.f-spi-w{color:var(--warning)}
+.f-spi-f{color:var(--red)}
+.f-spi-hist{display:block;width:100%;max-height:150px;background:var(--surface-2);border:1px solid var(--hair);border-radius:var(--r);padding:8px 10px 4px;box-sizing:border-box}
+.f-spi-hist text{font:10px var(--mono);fill:var(--t3)}
+.f-spi-band{fill:var(--accent);opacity:.08}
+.f-spi-limit{stroke:var(--accent);stroke-width:1;stroke-dasharray:3 2;vector-effect:non-scaling-stroke}
+.f-spi-axis{stroke:var(--rule);stroke-width:1;vector-effect:non-scaling-stroke}
+.f-spi-pass{fill:var(--green)}
+.f-spi-warn{fill:var(--warning)}
+.f-spi-fail{fill:var(--red)}
+.f-spi-table{width:100%;border-collapse:collapse;font-size:13px}
+.f-spi-table th{font-weight:400;font-size:12px;color:var(--t3);text-align:right;padding:4px 0 4px 8px;border-bottom:1px solid var(--rule)}
+.f-spi-table th:first-child,.f-spi-table td:first-child{text-align:left;padding-left:0}
+.f-spi-table td{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;padding:5px 0 5px 8px;border-bottom:1px solid var(--hair);color:var(--text);white-space:nowrap}
+.f-spi-table td i{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:6px;vertical-align:1px;background:var(--warning)}
+.f-spi-row-fail td i{background:var(--red)}
+.f-spi-row-fail td:nth-child(3){color:var(--red)}
+.f-spi-pending td,.f-spi-pending td:nth-child(3){color:var(--t3)}
+.f-spi-pending td i{opacity:.35}
+.f-spi-table tfoot td{font-family:inherit;color:var(--t3);text-align:left;padding-left:0;border-bottom:0}
+.f-spi-none{margin:0;font-size:13px;color:var(--t3)}
